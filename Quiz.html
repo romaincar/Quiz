@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="Quiz.css">
+
+</head>
+<body>
+
+<header class="text-center"><h1><strong>QUIZZ</strong></h1></header>
+
+    <section id="global">
+
+        <div id="question">
+
+        </div>
+
+        <div id="reponse">
+            <div id="reponse1"></div>
+            <div id="reponse2"></div>
+            <div id="reponse3"></div>
+            <button type="submit" class="but" id="valide">Valider</button>
+        </div>
+        <div id="Temps">
+            <span id="minutes">..</span>
+            <span class="color">: Min</span>
+            <span id="secondes">..</span>
+            <span class="color">: Sec</span>
+        </div>
+    </section>
+
+
+
+<footer>
+    <div id="partieterminer">
+        <div id="score">  </div>
+            <ul id="mauvaiserep"></ul>
+
+
+            <button onclick="resett()" type="reset" class="but" id="recommence">Recommencer</button>
+
+
+    </div>
+</footer>
+
+<script src="jquery.js"></script>
+<script src="Quiz.js"></script>
+</body>
+</html>

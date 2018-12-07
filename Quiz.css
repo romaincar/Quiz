@@ -1,0 +1,204 @@
+
+h1 {
+position: relative;
+    margin: auto;
+    color: #9fcdff;
+    text-align: center;
+}
+
+#question {
+
+    height: 7vh;
+    text-align: center;
+    margin-top: 1vw;
+    width: 33vh;
+    margin-left: 21vw;
+    font-size: 3vh;
+    color: #9fcdff;
+
+}
+
+#reponse {
+    height: 10vh;
+    margin-top: 17vh;
+    line-height: 11vh;
+    font-size: 2vh;
+    width: 20vh;
+    margin-left: 34vw;
+    color: #9fcdff;
+}
+
+#recommence {
+    margin-left: 1vh;
+    margin-top: 3vh;
+}
+
+#reponse {
+    text-align: center;
+    color: #9fcdff;
+}
+
+#partieterminer {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#Temps {
+    font-size: 3vh;
+    margin-left: 3vh;
+    padding-top: 43vh;
+}
+
+body {
+    background-image: url("fonds.jpg");
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    text-align: center !important;
+
+}
+
+#minutes {
+    color: rgb(0, 123, 255);
+    font-size: 5vh;
+
+}
+
+#secondes {
+    color: rgb(205, 32, 10);
+    font-size: 5vh;
+
+}
+
+.color {
+    color: rgb(243, 208, 114);
+    font-size: 5vh;
+}
+
+#score {
+    color: #9fcdff;
+    text-align: center;
+}
+
+#mauvaiserep {
+    color: #9fcdff;
+    text-align: center;
+}
+
+.but {
+    border: none;
+    padding: 8px 3px 8px 3px;
+    border-radius: 8px;
+    background: #d34836;
+    font: bold 13px Arial;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+
+    * {
+
+        box-sizing: border-box;
+
+    }
+
+    /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+    body {
+
+        width: auto;
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+    /* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+    img,
+    table,
+    td,
+    blockquote,
+    code,
+    pre,
+    textarea,
+    input,
+    iframe,
+    object,
+    embed,
+    video {
+
+        max-width: 100%;
+
+    }
+
+    /* conserver le ratio des images */
+    img {
+
+        height: auto;
+
+    }
+
+    /* gestion des mots longs */
+    textarea,
+    table,
+    td,
+    th,
+    code,
+    pre,
+    samp {
+
+        -webkit-hyphens: auto; /* césure propre */
+
+        -moz-hyphens: auto;
+
+        hyphens: auto;
+
+        word-wrap: break-word; /* passage à la ligne forcé */
+
+    }
+
+    code,
+    pre,
+    samp {
+
+        white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+
+    }
+
+    /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+    .element1,
+    .element2 {
+
+        float: none;
+
+        width: auto;
+
+    }
+
+    /* masquer les éléments superflus */
+    .hide_mobile {
+
+        display: none !important;
+
+    }
+
+    /* Un message personnalisé */
+    body:before {
+
+        content: "Version mobile du site";
+
+        display: block;
+
+        text-align: center;
+
+        font-style: italic;
+
+        color: #777;
+
+    }
+
+}
+
+Zone de message
